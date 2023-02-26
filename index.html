@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Road Acadimy</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- font awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- HEADER  -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow header fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-3" href="#">
+          <span class="r fw-bold fs-2 text-primary">R</span>oad <p class="academ"><span class="r fw-bold fs-2 text-primary">A</span>cademy</p>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0  nav-pills">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#intro">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#categories">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#courses">Courses</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cources
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">HTML</a></li>
+                <li><a class="dropdown-item" href="#">CSS</a></li>
+                <li><a class="dropdown-item" href="#">JS</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">More</a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#instructors">Instructors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#new">New</a>
+            </li>
+          </ul>
+          <form class="d-flex right">
+            <button class="btn btn-primary ps-5 login pe-5" type="submit">
+              Login
+            </button>
+            <div class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- INTRO  -->
+    <div class="intro" id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="py-4">
+              <div class="p-4 rounded-3">
+                <div class="container-fluid py-5">
+                  <p class="text-capitalize hints"># learn anytime, anywhere</p>
+                  <h2 class="display-5 fw-bold">
+                    best world class learning system for future
+                  </h2>
+                  <p class="col-md-8 fs-6">
+                    We believe everyone hase the capacity to be creative. Road
+                    is a place where people develop their own potential
+                  </p>
+                  <button class="btn btn-primary intro-button-small btn-lg fs-6" type="button">
+                    VIEW COURSES
+                  </button>
+                  <button class="btn sec-color intro-button-small btn-lg fs-6" type="button">
+                    START TRIAL
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div
+              class="p-4 mb-4 pb-5 rounded-3 star-images py-4 d-flex justify-content-center align-items-center"
+            >
+              <img
+                class="first"
+                src="img/pexels-yan-krukau-8199252.jpg"
+                alt=""
+              />
+              <img
+                class="second"
+                src="img/pexels-yan-krukau-8199622.jpg"
+                alt=""
+              />
+              <img
+                class="thired"
+                src="img/priscilla-du-preez-XkKCui44iM0-unsplash.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- recent-subject  -->
+    <div class="recent-subject bg-light" id="categories">
+      <div class="container py-5">
+        <div class="container-fluid py-5">
+          <p class="text-capitalize hints"># top categories</p>
+          <div class="view d-flex justify-content-between align-items-center">
+            <h1 class="display-5 fs-1 fw-bold">recent popular subjects</h1>
+            <button class="btn btn-primary small-btn">
+              VIEW ALL <i class="fa-sharp fa-solid fa-right-long"></i>
+            </button>
+          </div>
+          <p class="col-md-8 fs-6">
+            Online learning offers a new way to explore subjects you're
+            passionate about
+          </p>
+        </div>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card">
+              <i class="fa-solid fa-tv subject-icon ms-3 mt-3 firt"></i>
+              <div class="card-body">
+                <h5 class="card-title">Computer Science</h5>
+                <p class="card-text">02 COURSES</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <i class="fa-solid fa-chart-line subject-icon ms-3 mt-3 thir"></i>
+              <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">12 COURSES</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <i class="fa-solid fa-atom subject-icon ms-3 mt-3 seco"></i>
+              <div class="card-body">
+                <h5 class="card-title">Data Science</h5>
+                <p class="card-text">06 COURSES</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <i
+                class="fa-sharp fa-solid fa-gears subject-icon ms-3 mt-3 fiv"
+              ></i>
+              <div class="card-body">
+                <h5 class="card-title">Enginnering</h5>
+                <p class="card-text">06 COURSES</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <i
+                class="fa-solid fa-book-open-reader subject-icon ms-3 mt-3 firt"
+              ></i>
+              <div class="card-body">
+                <h5 class="card-title">User Research</h5>
+                <p class="card-text">02 COURSES</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <i
+                class="fa-sharp fa-solid fa-briefcase subject-icon ms-3 mt-3 fiv"
+              ></i>
+              <div class="card-body">
+                <h5 class="card-title">Business Study</h5>
+                <p class="card-text">00 COURSES</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <i
+                class="fa-solid fa-head-side-virus subject-icon ms-3 mt-3 thir"
+              ></i>
+              <div class="card-body">
+                <h5 class="card-title">Psychology</h5>
+                <p class="card-text">12 COURSES</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <i class="fa-solid fa-suitcase subject-icon ms-3 mt-3 seco"></i>
+              <div class="card-body">
+                <h5 class="card-title">Architecture</h5>
+                <p class="card-text">02 COURSES</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about  -->
+    <div class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div
+              class="p-4 mb-4 pb-5 rounded-3 star-images py-4 d-flex justify-content-center align-items-center"
+            >
+              <img
+                class="first"
+                src="img/pexels-yan-krukau-8199252.jpg"
+                alt=""
+              />
+              <img
+                class="second"
+                src="img/pexels-yan-krukau-8199622.jpg"
+                alt=""
+              />
+              <img
+                class="thired"
+                src="img/priscilla-du-preez-XkKCui44iM0-unsplash.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="py-4">
+              <div class="p-4 rounded-3">
+                <div class="container-fluid py-5">
+                  <p class="text-capitalize hints"># about xpotes</p>
+                  <h2 class="display-5 fw-bold">
+                    we are turitor an online learning community
+                  </h2>
+                  <p class="col-md-8 fs-6">
+                    At Road we believe everyone should have the opportunity to
+                    createprogress through technology and develop the skills of
+                    tomorrow with ossessments learningpaths and courses authored
+                    by industry experts full over the world
+                  </p>
+                  <div class="row information">
+                    <div class="col">
+                      <h3 class="course">5016+</h3>
+                      <p>Online Courses</p>
+                    </div>
+                    <div class="col">
+                      <h3 class="winner">388+</h3>
+                      <p>Award Winner</p>
+                    </div>
+                    <div class="col">
+                      <h3 class="student">18600+</h3>
+                      <p>Total Student</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- top-courses  -->
+    <div class="top-courses bg-light" id="courses">
+      <div class="container py-5">
+        <div class="py-5 container-fluid">
+          <p class="text-capitalize hints"># top courses</p>
+          <div class="view d-flex justify-content-between align-items-center">
+            <h1 class="display-5 fs-1 fw-bold">
+              Find the right course for you
+            </h1>
+            <button class="btn btn-primary small-btn">
+              VIEW ALL <i class="fa-sharp fa-solid fa-right-long"></i>
+            </button>
+          </div>
+        </div>
+        <div class="sellector w-100 justify-content-around p-4 rounded-5">
+          <h4 class="active" data-sel=".all">ALL</h4>
+          <h4 data-sel=".web">Web Development</h4>
+          <h4 data-sel=".data">Data Scence</h4>
+          <h4 data-sel=".engineer">Enginering</h4>
+          <h4 data-sel=".research">User Research</h4>
+          <h4 data-sel=".business">Business</h4>
+          <h4 data-sel=".medical">Medical</h4>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Select courses
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item active" data-sel=".all">All</a></li>
+            <li>
+              <a class="dropdown-item" data-sel=".web">Web Development</a>
+            </li>
+            <li><a class="dropdown-item" data-sel=".data">Data Scence</a></li>
+            <li>
+              <a class="dropdown-item" data-sel=".engineer">Enginering</a>
+            </li>
+            <li>
+              <a class="dropdown-item" data-sel=".research">User Research</a>
+            </li>
+            <li><a class="dropdown-item" data-sel=".business">Business</a></li>
+            <li><a class="dropdown-item" data-sel=".medical">Medical</a></li>
+          </ul>
+        </div>
+        <div class="courses py-4">
+          <div
+            class="courses-all row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
+          >
+            <div class="col showc all web">
+              <div class="card p-2 py-3 h-100">
+                <div class="row w-100 pt-2 mx-0 align-items-center">
+                  <div class="col">
+                    <img
+                      src="img/courses/web develop.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col text-end">
+                    <h4>$49.00</h4>
+                    <div class="stars">I votes</div>
+                  </div>
+                </div>
+                <div class="card-body postion-relative">
+                  <p class="text-capitalize hints">Web Development</p>
+                  <h5 class="card-title text-capitalize">
+                    become a fullstack in few months
+                  </h5>
+                  <p class="card-text">
+                    bult your website easily by yourself content of course HTML
+                    , CSS , JS , PHP ,MYSQL
+                  </p>
+                  <div class="row my-3">
+                    <div class="col">
+                      <i class="fa-solid fa-file"></i> 08 lessons
+                    </div>
+                    <div class="col">
+                      <i class="fa-solid fa-user"></i> 28 student
+                    </div>
+                  </div>
+                  <button class="btn btn-light course-btn">SHOW DETAILS</button>
+                </div>
+              </div>
+            </div>
+            <div class="col showc all engineer">
+              <div class="card p-2 py-3 h-100">
+                <div class="row w-100 pt-2 mx-0 align-items-center">
+                  <div class="col">
+                    <img
+                      src="img/courses/engineering.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col text-end">
+                    <h4>$20.00</h4>
+                    <div class="stars">I votes</div>
+                  </div>
+                </div>
+                <div class="card-body postion-relative">
+                  <p class="text-capitalize hints">engineering</p>
+                  <h5 class="card-title text-capitalize">
+                    art your dream by this course
+                  </h5>
+                  <p class="card-text">
+                    become a successful enginner after this course learning and
+                    shoose your section
+                  </p>
+                  <div class="row my-3">
+                    <div class="col">
+                      <i class="fa-solid fa-file"></i> 30 lessons
+                    </div>
+                    <div class="col">
+                      <i class="fa-solid fa-user"></i> 20 student
+                    </div>
+                  </div>
+                  <button class="btn btn-light course-btn">SHOW DETAILS</button>
+                </div>
+              </div>
+            </div>
+            <div class="col showc all data">
+              <div class="card p-2 py-3 h-100">
+                <div class="row w-100 pt-2 mx-0 align-items-center">
+                  <div class="col">
+                    <img
+                      src="img/courses/data scince.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col text-end">
+                    <h4>$30.00</h4>
+                    <div class="stars">I votes</div>
+                  </div>
+                </div>
+                <div class="card-body postion-relative">
+                  <p class="text-capitalize hints">data scince</p>
+                  <h5 class="card-title text-capitalize">
+                    data science one of the most interisting scince
+                  </h5>
+                  <p class="card-text">
+                    go and discover this world you will view world in the other
+                    side
+                  </p>
+                  <div class="row my-3">
+                    <div class="col">
+                      <i class="fa-solid fa-file"></i> 06 lessons
+                    </div>
+                    <div class="col">
+                      <i class="fa-solid fa-user"></i> 33 student
+                    </div>
+                  </div>
+                  <button class="btn btn-light course-btn">SHOW DETAILS</button>
+                </div>
+              </div>
+            </div>
+            <div class="col showc all business">
+              <div class="card p-2 py-3 h-100">
+                <div class="row w-100 pt-2 mx-0 align-items-center">
+                  <div class="col">
+                    <img
+                      src="img/courses/campaign.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col text-end">
+                    <h4>$60.00</h4>
+                    <div class="stars">I votes</div>
+                  </div>
+                </div>
+                <div class="card-body postion-relative">
+                  <p class="text-capitalize hints">business</p>
+                  <h5 class="card-title text-capitalize">
+                    vusiness is very helpfull for everyone
+                  </h5>
+                  <p class="card-text">but your campany in the right way</p>
+                  <div class="row my-3">
+                    <div class="col">
+                      <i class="fa-solid fa-file"></i> 10 lessons
+                    </div>
+                    <div class="col">
+                      <i class="fa-solid fa-user"></i> 21 student
+                    </div>
+                  </div>
+                  <button class="btn btn-light course-btn">SHOW DETAILS</button>
+                </div>
+              </div>
+            </div>
+            <div class="col showc all data">
+              <div class="card p-2 py-3 h-100">
+                <div class="row w-100 pt-2 mx-0 align-items-center">
+                  <div class="col">
+                    <img
+                      src="img/courses/over thinking.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col text-end">
+                    <h4>$44.00</h4>
+                    <div class="stars">I votes</div>
+                  </div>
+                </div>
+                <div class="card-body postion-relative">
+                  <p class="text-capitalize hints">data scince</p>
+                  <h5 class="card-title text-capitalize">
+                    data science one of the most interisting scince
+                  </h5>
+                  <p class="card-text">
+                    go and discover this world you will view world in the other
+                    side
+                  </p>
+                  <div class="row my-3">
+                    <div class="col">
+                      <i class="fa-solid fa-file"></i> 09 lessons
+                    </div>
+                    <div class="col">
+                      <i class="fa-solid fa-user"></i> 33 student
+                    </div>
+                  </div>
+                  <button class="btn btn-light course-btn">SHOW DETAILS</button>
+                </div>
+              </div>
+            </div>
+            <div class="col showc all medical">
+              <div class="card p-2 py-3 h-100">
+                <div class="row w-100 pt-2 mx-0 align-items-center">
+                  <div class="col">
+                    <img
+                      src="img/courses/medical.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col text-end">
+                    <h4>$70.00</h4>
+                    <div class="stars">I votes</div>
+                  </div>
+                </div>
+                <div class="card-body postion-relative">
+                  <p class="text-capitalize hints">medical</p>
+                  <h5 class="card-title text-capitalize">
+                    good doctor how you will be after this course
+                  </h5>
+                  <p class="card-text">
+                    this is long way but interisting you will love it start now
+                  </p>
+                  <div class="row my-3">
+                    <div class="col">
+                      <i class="fa-solid fa-file"></i> 30 lessons
+                    </div>
+                    <div class="col">
+                      <i class="fa-solid fa-user"></i> 15 student
+                    </div>
+                  </div>
+                  <button class="btn btn-light course-btn">SHOW DETAILS</button>
+                </div>
+              </div>
+            </div>
+            <div class="col showc all web">
+              <div class="card p-2 py-3 h-100">
+                <div class="row w-100 pt-2 mx-0 align-items-center">
+                  <div class="col">
+                    <img
+                      src="img/courses/web.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col text-end">
+                    <h4>$66.00</h4>
+                    <div class="stars">I votes</div>
+                  </div>
+                </div>
+                <div class="card-body postion-relative">
+                  <p class="text-capitalize hints">Web Development</p>
+                  <h5 class="card-title text-capitalize">
+                    become a fullstack in and get your jop
+                  </h5>
+                  <p class="card-text">
+                    bult your website easily by yourself content of course HTML
+                    , CSS , JS , PHP , VUE.JS , BOOTSTRAP
+                  </p>
+                  <div class="row my-3">
+                    <div class="col">
+                      <i class="fa-solid fa-file"></i> 10 lessons
+                    </div>
+                    <div class="col">
+                      <i class="fa-solid fa-user"></i> 38 student
+                    </div>
+                  </div>
+                  <button class="btn btn-light course-btn">SHOW DETAILS</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- top-institutions  -->
+    <div class="top-institutions grad">
+      <div class="container">
+        <div class="start py-5">
+          <p class="text-capitalize hints"># top-institutions</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <h2 class="display-5 fs-1 fw-bold text-light">
+              Online Course From 160 Top Institutions.
+            </h2>
+            <button class="btn sec-color btn-lg small-btn" type="button">
+              START TRIAL <i class="fa-sharp fa-solid fa-right-long"></i>
+            </button>
+          </div>
+        </div>
+        <div class="w-100 video">
+          <!-- <img src="img/courses/groub.jpg" class="w-100" style="height:600px" alt=""> -->
+          <!-- <iframe src="videos/videoplayer.mov" class="w-100" title="Vimeo video" allowfullscreen></iframe> -->
+          <video
+            controls
+            loop
+            poster="img/video-img.jpg"
+            class="w-100 video-img"
+          >
+            <source
+              src="videos/videointro.mp4"
+              type="video/mp4"
+              class="w-100 h-100"
+            />
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <!-- top-instructors  -->
+    <div class="top-instructors bg-light" id="instructors">
+      <div class="container py-5">
+        <div class="container-fluid py-5">
+          <p class="text-capitalize hints"># top instructors</p>
+          <div class="d-flex justify-content-between  align-items-center">
+            <h2 class="display-5 fs-1 fw-bold">
+              Featured Instructors
+            </h2>
+            <button class="btn btn-primary small-btn" type="button">
+              START TRIAL <i class="fa-sharp fa-solid fa-right-long"></i>
+            </button>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card card-top border-0 shadow-sm">
+              <img
+                src="img/man/julian-wan-WNoLnJo7tS8-unsplash.jpg"
+                class="card-img-top instructor"
+                alt="..."
+              />
+              <div class="mx-auto contact px-2">
+                <div class="row text-center rounded links-social">
+                  <a class="col p-0" href=""
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                  <a class="col p-0" href=""
+                    ><i class="fa-brands fa-behance"></i
+                  ></a>
+                  <a class="col p-0" href=""
+                    ><i class="fa-brands fa-google"></i
+                  ></a>
+                  <a class="col p-0" href=""
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a class="col p-0" href=""
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="card-body text-center bg-white">
+                <h5 class="card-title">Khalid Ali</h5>
+                <p class="text-capitalize hints">architecture specialist</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-top border-0 shadow-sm">
+              <img
+                src="img/man/samuel-raita-RiDxDgHg7pw-unsplash.jpg"
+                class="card-img-top instructor"
+                alt="..."
+              />
+              <div class="mx-auto contact px-2">
+                <div class="row text-center rounded links-social">
+                  <a class="col p-0" href=""
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                  <a class="col p-0" href=""
+                    ><i class="fa-brands fa-behance"></i
+                  ></a>
+                  <a class="col p-0" href=""
+                    ><i class="fa-brands fa-google"></i
+                  ></a>
+                  <a class="col p-0" href=""
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a class="col p-0" href=""
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="card-body text-center bg-white">
+                <h5 class="card-title">Hassan Mohamed</h5>
+                <p class="text-capitalize hints">software ingineer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-top border-0 shadow-sm">
+              <img
+                src="img/man/christian-buehner-DItYlc26zVI-unsplash.jpg"
+                class="card-img-top instructor"
+                alt="..."
+              />
+              <div class="mx-auto contact px-2">
+                <div class="row text-center rounded links-social">
+                  <a class="col p-0" href=""
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                  <a class="col p-0" href=""
+                    ><i class="fa-brands fa-behance"></i
+                  ></a>
+                  <a class="col p-0" href=""
+                    ><i class="fa-brands fa-google"></i
+                  ></a>
+                  <a class="col p-0" href=""
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a class="col p-0" href=""
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="card-body text-center bg-white">
+                <h5 class="card-title">Ahmed Hassan</h5>
+                <p class="text-capitalize hints">Web developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- student-feedback  -->
+    <div class="student-feedback">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div
+              class="p-4 mb-4 pb-5 rounded-3 star-images py-4 d-flex justify-content-center align-items-center"
+            >
+              <img
+                class="first"
+                src="img/man/josh-applegate-p_KJvKVsH14-unsplash.jpg"
+                alt=""
+              />
+              <img
+                class="second"
+                src="img/man/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg"
+                alt=""
+              />
+              <img
+                class="thired"
+                src="img/priscilla-du-preez-XkKCui44iM0-unsplash.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 py-5">
+            <p class="text-capitalize hints"># student feedback</p>
+            <h2 class="display-5 fw-bold">
+              we are turitor an online learning community
+            </h2>
+            <div
+              id="carouselExampleCaptions"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <div class="col carousel-buttons">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-block w-100 to-down">
+                    <i class="fa-solid fa-down-long"></i>
+                    <i class="fa-solid fa-down-long"></i>
+                  </div>
+                  <div class="py-4">
+                    <div class="p-4 rounded-3">
+                      <div class="container-fluid">
+                        <p class="col-md-8 fs-6">
+                          At Road we believe everyone should have the
+                          opportunity to createprogress through technology and
+                          develop the skills of tomorrow with ossessments
+                          learningpaths and courses authored by industry experts
+                          full over the world
+                        </p>
+                      </div>
+                      <div class="row trust">
+                        <div class="col-2 trust-img">
+                          <img
+                            src="img/man/charlie-green-3JmfENcL24M-unsplash.jpg"
+                            class=""
+                            alt=""
+                          />
+                        </div>
+                        <div class="col p-3">
+                          <h5>William Varan</h5>
+                          <p class="text-capitalize hints">Founder Of Vesion</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-block w-100 to-down">
+                    <i class="fa-solid fa-down-long"></i>
+                    <i class="fa-solid fa-down-long"></i>
+                  </div>
+                  <div class="py-4">
+                    <div class="p-4 rounded-3">
+                      <div class="container-fluid">
+                        <p class="col-md-8 fs-6">
+                          At Road we believe everyone should have the
+                          opportunity to createprogress through technology and
+                          develop the skills of tomorrow with ossessments
+                          learningpaths and courses authored by industry experts
+                          full over the world
+                        </p>
+                      </div>
+                      <div class="row trust">
+                        <div class="col-2 trust-img">
+                          <img
+                            src="img/man/andrew-power-y9L5-wmifaY-unsplash.jpg"
+                            class=""
+                            alt=""
+                          />
+                        </div>
+                        <div class="col p-3">
+                          <h5>Gaber Mohamed</h5>
+                          <p class="text-capitalize hints">
+                            Computer & programer
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-block w-100 to-down">
+                    <i class="fa-solid fa-down-long"></i>
+                    <i class="fa-solid fa-down-long"></i>
+                  </div>
+                  <div class="py-4">
+                    <div class="p-4 rounded-3">
+                      <div class="container-fluid">
+                        <p class="col-md-8 fs-6">
+                          At Road we believe everyone should have the
+                          opportunity to createprogress through technology and
+                          develop the skills of tomorrow with ossessments
+                          learningpaths and courses authored by industry experts
+                          full over the world
+                        </p>
+                      </div>
+                      <div class="row trust">
+                        <div class="col-2 trust-img">
+                          <img
+                            src="img/man/albert-dera-ILip77SbmOE-unsplash.jpg"
+                            class=""
+                            alt=""
+                          />
+                        </div>
+                        <div class="col p-3">
+                          <h5>Mahmoud Ayman</h5>
+                          <p class="text-capitalize hints">Embided system</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- news & events  -->
+    <div class="news bg-light" id="new">
+        <div class="container py-5">
+          <div class="py-5 container-fluid">
+            <p class="text-capitalize hints"># news & events</p>
+            <div class="view d-flex justify-content-between align-items-center">
+              <h1 class="display-5 fs-1 fw-bold">
+                Every single update from here
+              </h1>
+              <button class="btn btn-primary small-btn">
+                VIEW ALL <i class="fa-sharp fa-solid fa-right-long"></i>
+              </button>
+            </div>
+          </div>
+          <div class="row row-cols-md-1 row-cols-lg-2">
+            <div class="col-sm">
+              <div class="card mb-3">
+                <img src="img/update.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Teaching JavaScript Language</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between p-2 text-primary share-new">
+                    <p class="m-0">read more <i class="fa-solid fa-right-long p-2"></i></p>
+                    <i class="fa-solid fa-share-nodes"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-4">
+                    <img src="img/news/new1.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <p class="card-text"><small class="text-muted">Last updated 15 mins ago</small></p>
+                      <p class="card-text">turitor teaching javascript tacking the crisis worldwide</p>
+                      <div class="d-flex justify-content-between p-2 text-primary share-new">
+                        <p class="m-0">read more <i class="fa-solid fa-right-long"></i></p>
+                        <i class="fa-solid fa-share-nodes text-secondary"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-4">
+                    <img src="img/news/new2.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <p class="card-text"><small class="text-muted">Last updated 3 hour ago</small></p>
+                      <p class="card-text">turitor teaching javascript tacking the crisis worldwide</p>
+                      <div class="d-flex justify-content-between p-2 text-primary share-new">
+                        <p class="m-0">read more <i class="fa-solid fa-right-long"></i></p>
+                        <i class="fa-solid fa-share-nodes text-secondary"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-4">
+                    <img src="img/news/new3.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p>
+                      <p class="card-text">turitor teaching javascript tacking the crisis worldwide</p>
+                      <div class="d-flex justify-content-between p-2 text-primary share-new">
+                        <p class="m-0">read more <i class="fa-solid fa-right-long"></i></p>
+                        <i class="fa-solid fa-share-nodes text-secondary"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row become rounded">
+            <div class="col-sm instruct">
+              <div class="card">
+                <div class="card-body">
+                  <p class="text-capitalize hint-white"># become a intructor</p>
+                  <h5 class="card-title fs-1">Special title treatment</h5>
+                  <button href="#" class="btn border text-light">APPLY NOW <i class="fa-solid fa-right-long"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card">
+                <div class="card-body">
+                  <p class="text-capitalize hints"># become a partner</p>
+                  <h5 class="card-title fs-1">Special title treatment</h5>
+                  <!-- <a href="#" class="btn border">CONTACT US <i class="fa-solid fa-right-long"></i></a> -->
+                  <button class="btn sec-color btn-lg fs-6" type="button">
+                    START TRIAL <i class="fa-sharp fa-solid fa-right-long"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <div class="footer pt-5 pb-5  text-white-50 text-center text-md-start">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="footer-info">
+              <p class="mb-4  text-white footer-logo">
+                <span class="r fw-bold fs-2 text-primary">R</span>oad
+              </p>
+              <p class="mb-5">
+                Road Academy is an EU-owned online hub containing first-hand knowledge, high quality educational resources and valuable insights, directly produced by the EU institutions, for individuals whose work is related to its sphere of action. The aim is to facilitate their easy and smooth understanding and successful implementation of EU policies in a wide array of fields.
+              </p>
+              <div class="copyright">
+                Created By <span>Karim</span>
+                <div>&copy; 2023 - <span>Bondi Inc</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="footer-links">
+              <h5 class="text-white">CATEGORIES</h5>
+              <ul class="list-unstyled lh-lg">
+                <li><i class="fa-solid fa-angles-right"></i> All Courses</li>
+                <li><i class="fa-solid fa-angles-right"></i> Design Courses</li>
+                <li><i class="fa-solid fa-angles-right"></i> Branding Design</li>
+                <li><i class="fa-solid fa-angles-right"></i> Business</li>
+                <li><i class="fa-solid fa-angles-right"></i> Architecture</li>
+                <li><i class="fa-solid fa-angles-right"></i> Digital Branding</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="footer-links">
+              <h5 class="text-white">SUPPORT</h5>
+              <ul class="list-unstyled lh-lg">
+                <li><i class="fa-solid fa-angles-right"></i> Contact Support</li>
+                <li><i class="fa-solid fa-angles-right"></i> System Requerment</li>
+                <li><i class="fa-solid fa-angles-right"></i> Site Feedback</li>
+                <li><i class="fa-solid fa-angles-right"></i> Register Activation Key</li>
+                <li><i class="fa-solid fa-angles-right"></i> 24/7 Service</li>
+                <li><i class="fa-solid fa-angles-right"></i> System Requerment</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="footer-contact">
+              <h5 class="text-white">Contact Us</h5>
+              <p class="lh-lg mt-3 mb-4">
+                Do you want to become a volunteer/ambassador or do you have a general question
+              </p>
+              <button class="btn sec-color btn-lg fs-6 w-75" type="button">
+                Send Message <i class="fa-sharp fa-solid fa-right-long"></i>
+              </button>
+              <ul class="d-flex mt-4 list-unstyled gap-4 justify-content-center footer-social fs-5">
+                <li>
+                  <a class="d-block text-white facebook" href="">
+                    <i class="fa-brands fa-facebook "></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-block text-white twitter" href="">
+                    <i class="fa-brands fa-twitter "></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-block text-white instagram" href="">
+                    <i class="fa-brands fa-square-instagram "></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-block text-white linkedin" href="">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-block text-white whatsapp" href="">
+                    <i class="fa-brands fa-whatsapp "></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/js.js"></script>
+  </body>
+</html>
+
+<!-- #ffffff80 -->
